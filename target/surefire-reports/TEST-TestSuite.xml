@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.077" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="//Users//gracevallu//Downloads//chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/gracevallu/eclipse-workspace/E2Eframeworkproject/target/test-classes:/Users/gracevallu/eclipse-workspace/E2Eframeworkproject/target/classes:/Users/gracevallu/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/gracevallu/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/gracevallu/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/gracevallu/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/gracevallu/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/gracevallu/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/gracevallu/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/gracevallu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/gracevallu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/gracevallu/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/gracevallu/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/gracevallu/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/gracevallu/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/gracevallu/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/gracevallu/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/gracevallu/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/gracevallu/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/gracevallu/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/gracevallu/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/gracevallu/.m2/repository/com/aventstack/extentreports/5.0.4/extentreports-5.0.4.jar:/Users/gracevallu/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/gracevallu/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/gracevallu/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/gracevallu/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/gracevallu/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/gracevallu/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/gracevallu/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/gracevallu/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/gracevallu/eclipse-workspace/E2Eframeworkproject/target/surefire/surefirebooter931765242693831202.jar /Users/gracevallu/eclipse-workspace/E2Eframeworkproject/target/surefire 2020-10-27T12-07-58_821-jvmRun1 surefire832185433435994302tmp surefire_017777548663309560467tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/gracevallu/eclipse-workspace/E2Eframeworkproject/target/test-classes:/Users/gracevallu/eclipse-workspace/E2Eframeworkproject/target/classes:/Users/gracevallu/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/gracevallu/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/gracevallu/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/gracevallu/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/gracevallu/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/gracevallu/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/gracevallu/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/gracevallu/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/gracevallu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/gracevallu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/gracevallu/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/gracevallu/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/gracevallu/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/gracevallu/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/gracevallu/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/gracevallu/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/gracevallu/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/gracevallu/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/gracevallu/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/gracevallu/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/gracevallu/.m2/repository/com/aventstack/extentreports/5.0.4/extentreports-5.0.4.jar:/Users/gracevallu/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/gracevallu/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/gracevallu/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/gracevallu/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/gracevallu/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/gracevallu/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/gracevallu/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/gracevallu/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/gracevallu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/gracevallu/eclipse-workspace/E2Eframeworkproject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/gracevallu/eclipse-workspace/E2Eframeworkproject/target/surefire/surefirebooter931765242693831202.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="gracevallu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/gracevallu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/w8/rfhlnj_s1vz4lfkz0hgtr4n40000gn/T/"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="/Users/gracevallu/eclipse-workspace/E2Eframeworkproject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/gracevallu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testApp" classname="Academy.E2Eframeworkproject.AppTest" time="0.01">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+	at Academy.E2Eframeworkproject.AppTest.testApp(AppTest.java:26)
+]]></failure>
+  </testcase>
+  <testcase name="basePageNavigation" classname="Academy.E2Eframeworkproject.validateNavigationBar" time="4.763">
+    <system-err><![CDATA[SSttaartritnigSn tCgh arCrohtmreioDnmrgei DvCrehrri ov8me6er.D0 r.8i4v62e.4r00 .8.2642.20 4.(043.29282b 0(734430353.9f8f2b30267f 4b(3133b958823b4f06f7834f636f33b5a133bfaf893326b4f4be6128bef8693ea-3rae93fb48se224/6eb88rf9a6en3-acr3hea-f9h3seb/a4bdes/ranc42h40-h@e{a#d3s7/84}2)4 o0n@ {p#o3r7t8 }1) 0o1n3 7p
+oOrntly  2l8o0c1a0l
+ Ocnol2nyn eel8co9tceia-lor necsfo sna/nrbeerc atanilcolhnos- whaeeraded .sa/l4l2o4w0e@d{.#
+3P7l8e}a)s eon  speoer th tt3p42s9:2/
+/Onclhy rloomcaeld croninevcetrio.ncs harroem ailulomwed
+Please see https://chromedriver.chro.m
+iPulm.e.oaorrsgge// ssseeeeccuurity-considerations for suggestions on keeping ChromeDriverr i htsya-fec.o
+nstitdpesr:a/ti/ocnhsr ofmoerd rsiuvgegre.scthiromium.org/security-considerationso fnors  suoggne skteieopnisn go nC hkreeopmienDgr iCvherro mseaDfreiv.e
+rC hCrshaormfoeemD.er
+DirvCievhrerro me Dwwraaissv e ssrt taawrrattse des dts aursctucececsdes sfssuulfclucyle.ls
+ys.fu
+lly.
+Oct 27, 2020 12:08:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 27, 2020 12:08:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 27, 2020 12:08:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="Academy.E2Eframeworkproject.validateTitle" time="4.356">
+    <system-out><![CDATA[/Users/gracevallu/eclipse-workspace/E2Eframeworkproject/reports/basePageNavigation.png
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 45719
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 27, 2020 12:08:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation[grace@qaclick.com, kiru](1)" classname="Academy.E2Eframeworkproject.HomePage" time="6.321">
+    <system-out><![CDATA[/Users/gracevallu/eclipse-workspace/E2Eframeworkproject/reports/basePageNavigation.png
+]]></system-out>
+  </testcase>
+</testsuite>
